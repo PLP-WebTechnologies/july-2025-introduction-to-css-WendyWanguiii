@@ -1,0 +1,73 @@
+/* 1. Global reset & base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* 2. Header */
+  header {
+    background: #2c3e50;
+    color: #ecf0f1;
+    padding: 1.5rem 1rem;
+    border-bottom: 4px solid #1abc9c;
+    margin-bottom: 1.5rem;
+  }
+  
+  header h1 {
+    margin-bottom: 0.5rem;
+  }
+  
+  nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-right: 1rem;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid transparent;
+  }
+  
+  nav a:hover {
+    border-color: #1abc9c;
+    border-radius: 4px;
+  }
+  
+  /* 3. Hero section */
+  .hero {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  /* 4. Cards */
+  .card {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+    background: #fff;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  }
+  
+  .card h2 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  /* 5. Footer */
+  footer {
+    text-align: center;
+    padding: 1.5rem 1rem;
+    margin-top: 2rem;
+    background: #2c3e50;
+    color: #ecf0f1;
+  }
